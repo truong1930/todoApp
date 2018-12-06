@@ -1,0 +1,8 @@
+<div class="row justify-content-center">
+  <ul>
+    <!-- {{list|json}} -->
+    <div *ngFor="let item of list">
+      <app-todo-detail [item]='item'></app-todo-detail>
+    </div>
+  </ul>
+</div>

@@ -1,0 +1,6 @@
+<li class="{{item.isComplete?'complete':''}}" (click)="toggle(item.id)">
+  <span>
+    Task Name: {{item.text}} {{item.isComplete}}
+  </span>
+  <span class="btn btn-danger" (click)='delete(item.id)'>Delete</span>
+</li>
